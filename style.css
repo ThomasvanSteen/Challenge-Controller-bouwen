@@ -1,0 +1,31 @@
+.race-tracks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .race-track {
+    width: 500px;
+    height: 150px;
+    border: 1px solid black;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .fas {
+    font-size: 48px;
+    color: red;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .race-track:nth-child(1) .fas {
+    left: 2px;
+  }
+  
+  .race-track:nth-child(2) .fas {
+    left: 2px;
+  }
+  
