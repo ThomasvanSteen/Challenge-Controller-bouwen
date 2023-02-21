@@ -10,18 +10,30 @@
     <title>Document</title>
 </head>
 <body>
+
+ 
     <div class="race-tracks">
+      <div class="Player-1" >Player 1 Press right Arrow key to move</div>
         <div class="race-track">
+          
             <div class="finish-line"></div>
-          <i  id="car-icon-2" class="fas fa-car-side"></i>
-        </div>
-      
-        <div class="race-track">
-            <div class="finish-line"></div>
+            <img src="finsish-icon.jpg" alt="" class="fin">
           <i  id="car-icon-1" class="fas fa-car-side"></i>
+        </div>
+        <div class="Player-2">Player 2 Press D key to move</div>
+        <div class="race-track">
+          
+            <div class="finish-line"> </div>  
+              <img src="finsish-icon.jpg" alt="" class="fin"> 
+          <i  id="car-icon-2" class="fas fa-car-side"></i>
         </div>
       </div>
       <script src="script.js"></script>
-      
+
+      <script src="/socket.io/socket.io.js"></script>
+      <script>
+         var socket = io();
+      </script>
+     
 </body>
 </html>
